@@ -1,4 +1,4 @@
-package com.khurshiddev.loginpractice
+package com.khurshiddev.a1_login_example
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.khurshiddev.loginpractice", appContext.packageName)
+        assertEquals("com.khurshiddev.a1_login_example", appContext.packageName)
     }
 }

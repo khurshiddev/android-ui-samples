@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "loginPractice"
-include ':app'
+include ':1-login-example'

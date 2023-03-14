@@ -1,4 +1,4 @@
-package com.khurshiddev.loginpractice
+package com.khurshiddev.a1_login_example
 
 import org.junit.Test
 

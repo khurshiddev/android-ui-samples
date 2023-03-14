@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topMargin">16dp</dimen>
+    <dimen name="leftMargin">16dp</dimen>
+    <dimen name="endMargin">16dp</dimen>
+    <dimen name="startMargin">16dp</dimen>
+    <dimen name="textTopMar">30dp</dimen>
+    <dimen name="textSize">18dp</dimen>
+</resources>
