@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/1-login-example" />
             <option value="$PROJECT_DIR$/2-ui-elements" />
             <option value="$PROJECT_DIR$/3-generate-random-number" />
+            <option value="$PROJECT_DIR$/4-frame-layout" />
+            <option value="$PROJECT_DIR$/5-relative-layout" />
           </set>
         </option>
       </GradleProjectSettings>

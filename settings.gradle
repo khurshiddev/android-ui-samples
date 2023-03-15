@@ -16,3 +16,5 @@ rootProject.name = "loginPractice"
 include ':1-login-example'
 include ':2-ui-elements'
 include ':3-generate-random-number'
+include ':4-frame-layout'
+include ':5-relative-layout'

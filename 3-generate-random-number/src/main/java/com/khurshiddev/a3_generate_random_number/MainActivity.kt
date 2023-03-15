@@ -27,6 +27,5 @@ class MainActivity : AppCompatActivity() {
                 binding.resultTv.text = String.format("Generate Number : %.3f", randomNumber)
             }
         }
-
     }
 }
