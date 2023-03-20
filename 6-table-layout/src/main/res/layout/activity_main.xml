@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="@color/teal_200"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="2"
+            android:gravity="center"
+            android:background="@color/teal_700"
+            android:textSize="30sp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:text="3"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:textSize="30sp"
+            android:layout_span="2"
+            android:text="4" />
+
+        <TextView
+            android:gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="30sp"
+            android:text="2"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:layout_span="3"
+            android:text="5"/>
+    </TableRow>
+
+</TableLayout>
