@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/4-frame-layout" />
             <option value="$PROJECT_DIR$/5-relative-layout" />
             <option value="$PROJECT_DIR$/6-table-layout" />
+            <option value="$PROJECT_DIR$/7-constrain-layout3" />
           </set>
         </option>
       </GradleProjectSettings>
