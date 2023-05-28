@@ -1,4 +1,4 @@
-package com.example.a7_constrain_layout2
+package com.example.a13_info_user
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.a7_constrain_layout2", appContext.packageName)
+        assertEquals("com.example.a13_info_user", appContext.packageName)
     }
 }
