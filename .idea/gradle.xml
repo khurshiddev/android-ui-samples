@@ -11,12 +11,18 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1-login-example" />
+            <option value="$PROJECT_DIR$/10-activity-lifecycle" />
+            <option value="$PROJECT_DIR$/11-animation-alpha" />
+            <option value="$PROJECT_DIR$/12-shared-praference" />
+            <option value="$PROJECT_DIR$/13-info-user" />
             <option value="$PROJECT_DIR$/2-ui-elements" />
             <option value="$PROJECT_DIR$/3-generate-random-number" />
             <option value="$PROJECT_DIR$/4-frame-layout" />
             <option value="$PROJECT_DIR$/5-relative-layout" />
             <option value="$PROJECT_DIR$/6-table-layout" />
             <option value="$PROJECT_DIR$/7-constrain-layout3" />
+            <option value="$PROJECT_DIR$/8-activity-with-two-pages" />
+            <option value="$PROJECT_DIR$/9-activity_animations" />
           </set>
         </option>
       </GradleProjectSettings>
