@@ -1,4 +1,4 @@
-package com.example.a7_constrain_layout
+package com.example.a11_animation_alpha
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.a7_constrain_layout", appContext.packageName)
+        assertEquals("com.example.a11_animation_alpha", appContext.packageName)
     }
 }
