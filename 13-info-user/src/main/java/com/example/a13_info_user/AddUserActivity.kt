@@ -19,13 +19,13 @@ class AddUserActivity : AppCompatActivity() {
 
         binding.imageView2.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fade_in_anim))
         binding.saveBtn.startAnimation(AnimationUtils.loadAnimation(this, R.anim.enter_bottom))
-        binding.surNameEt.startAnimation(AnimationUtils.loadAnimation(this, R.anim.enter_left))
+        binding.nameEt.startAnimation(AnimationUtils.loadAnimation(this, R.anim.enter_left))
         binding.surNameEt.startAnimation(AnimationUtils.loadAnimation(this, R.anim.enter_right))
         binding.ageEt.startAnimation(AnimationUtils.loadAnimation(this, R.anim.enter_left))
         sharedPreferences = getSharedPreferences("db", MODE_PRIVATE)
 
         binding.saveBtn.setOnClickListener {
-            val name = binding.surNameEt.text.toString()
+            val name = binding.nameEt.text.toString()
             val surname = binding.surNameEt.text.toString()
             val age = binding.ageEt.text.toString()
             if (name.isNotBlank() && surname.isNotBlank() && age.isNotBlank()) {

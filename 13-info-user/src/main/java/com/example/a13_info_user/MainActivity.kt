@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         sharedPreferences = getSharedPreferences("db", MODE_PRIVATE)
-        binding.nameTv.text = "Name:  ${sharedPreferences.getString("name", "")}"
-        binding.surnameTv.text = "Surename: ${sharedPreferences.getString("surname", "")}"
+        binding.nameTv.text = "Name:  ${ sharedPreferences.getString("name", "") }"
+        binding.surnameTv.text = "Surname: ${sharedPreferences.getString("surname","")}"
         binding.ageTv.text = "Age: ${sharedPreferences.getString("age","")}"
 
         binding.imageView.startAnimation(AnimationUtils.loadAnimation(this,R.anim.fade_in_anim))
