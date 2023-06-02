@@ -4,39 +4,41 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="16dp"
-        android:textStyle="bold"
-        android:background="@android:color/holo_blue_bright"
-        android:textColor="@color/white"
-        android:text="Android course"
-        android:textSize="30sp" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView"
+       android:gravity="center"
+       android:padding="16dp"
+       android:text="Android Courses"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       android:background="@android:color/holo_blue_dark"
+       />
 
     <EditText
-        android:id="@+id/userNameEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/userNameEt"
+        android:hint="Name"
         android:ems="10"
         android:padding="16dp"
-        android:inputType="textPersonName"
-        android:hint="Name" />
+        android:inputType="textPersonName"/>
 
     <EditText
-        android:padding="16dp"
-        android:id="@+id/userEmailEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/userEmailEt"
+        android:padding="16dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:hint="email" />
+        android:hint="email"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:id="@+id/signBtn"
         android:text="Sign in"/>
+
 </LinearLayout>

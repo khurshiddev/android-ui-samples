@@ -26,14 +26,12 @@ class MainActivity : AppCompatActivity() {
                 .setView(dialogViewBinding.root)
                 .create()
             dialogViewBinding.signBtn.setOnClickListener {
-
                 Log.d(
                     "dialog",
-                    ":${dialogViewBinding.userNameEt.text} ${dialogViewBinding.userEmailEt.text} "
+                    "${dialogViewBinding.userNameEt.text} ${dialogViewBinding.userEmailEt.text} "
                 )
-                dialog.dismiss() // button press dismiss
+                dialog.dismiss()
             }
-
             dialog.show()
         }
     }
