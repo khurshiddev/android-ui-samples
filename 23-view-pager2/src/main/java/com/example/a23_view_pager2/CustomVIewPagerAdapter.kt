@@ -5,15 +5,16 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class CustomVIewPagerAdapter(activity: FragmentActivity):FragmentStateAdapter(activity) {
+class CustomVIewPagerAdapter(activity: FragmentActivity, val list: List<Int>) :
+    FragmentStateAdapter(activity) {
     override fun getItemCount(): Int {
-        return 10
+        return list.size
     }
 
     override fun createFragment(position: Int): Fragment {
         return SampleFragment().apply {
             arguments = Bundle().apply {
-                putString("key",position.toString())
+                putInt("key", list[position])
             }
         }
     }
