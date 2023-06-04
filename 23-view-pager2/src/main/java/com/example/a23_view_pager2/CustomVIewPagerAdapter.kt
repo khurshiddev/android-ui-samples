@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class CustomVIewPagerAdapter(activity:FragmentActivity):FragmentStateAdapter(activity) {
+class CustomVIewPagerAdapter(activity: FragmentActivity):FragmentStateAdapter(activity) {
     override fun getItemCount(): Int {
         return 10
     }
@@ -17,4 +17,6 @@ class CustomVIewPagerAdapter(activity:FragmentActivity):FragmentStateAdapter(act
             }
         }
     }
+
+
 }
