@@ -23,17 +23,13 @@ class SampleFragment() : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val imageRes = arguments?.let {
-            it.getInt("key")
-        } ?: R.drawable.apple
-        binding.imageView.setImageResource(imageRes)
-
+        binding.textView.text = arguments?.let {
+            it.getString("key")
+        }
     }
-
 
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
     }
 }
-
