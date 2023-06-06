@@ -6,21 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <com.google.android.material.tabs.TabLayout
-       android:layout_width="match_parent"
-       android:id="@+id/tableLayout"
-       app:tabMode="fixed"
-       app:layout_constraintTop_toTopOf="parent"
-       android:layout_height="wrap_content"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        app:tabMode="scrollable"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/myViewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:paddingStart="50dp"
-        android:paddingEnd="50dp"
-        android:id="@+id/myViewPager"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tableLayout"
-        />
-
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
