@@ -7,13 +7,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.a22_create_fragment.databinding.SecondFragmentBinding
+import com.example.a22_create_fragment.databinding.FragmentSecondBinding
+
 
 
 class SecondFragment : Fragment() {
     val TAG = "Fragment Second"
 
-    private var nullableBinding: SecondFragmentBinding? = null
+    private var nullableBinding: FragmentSecondBinding? = null
     private val binding get() = nullableBinding!! // not null
 
     override fun onAttach(context: Context) {
@@ -40,7 +41,7 @@ class SecondFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        nullableBinding = SecondFragmentBinding.inflate(layoutInflater, container, false)
+        nullableBinding = FragmentSecondBinding.inflate(layoutInflater, container, false)
 
         // Inflate the layout for this fragment
         return nullableBinding?.root
